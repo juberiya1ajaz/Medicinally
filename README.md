@@ -21,7 +21,7 @@ Our web app **APP NAME** is built with the following features:
 
 ## 🤖 Best Use of NLP with Cohere
 
-We are using Cohere for building the Sentimental Analizer for daily diary page. Cohere help us with the NLP. Using Choere API was very easy. Cohere provide us with the sentiment score and the sentiment label. We are using the sentiment score to calculate the score for the day. We are using the sentiment label to show the user the sentiment of the day.
+We are using Cohere for building the Sentimental Analizer for daily diary page and send some random quotes. Cohere help us with the NLP. Using Choere API was very easy. Cohere provide us with the sentiment score and the sentiment label. We are using the sentiment score to calculate the score for the day. We are using the sentiment label to show the user the sentiment of the day.
 
 ## 🔐 Best Use of DeSo
 
