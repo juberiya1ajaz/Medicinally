@@ -17,7 +17,7 @@ Our web app **APP NAME** is built with the following features:
 - Frontend: HTML, CSS, and Js
 - Backend: Django
 - NLP: Cohere
-- For Sending Crypto Rewards: DeSo
+- ML: Tensorflow Js
 
 ## 🤖 Best Use of NLP with Cohere
 
