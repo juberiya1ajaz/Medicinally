@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans SC', sans-serif;
+        }
+
+        section {
+            min-height: 100vh;
+            width: 100%;
+            background-color: white;
+            background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main {
+            height: 85vh;
+            width: 75%;
+            background-color: white;
+            border-radius: 15px;
+            backdrop-filter: blur(0.1rem);
+            z-index: 3;
+            display: flex;
+            background: linear-gradient(to bottom left, rgba(225, 255, 255, 0.5), rgba(255, 255, 254, 0.8));
+        }
+
+        .section1 {
+            height: 100%;
+            width: 50%;
+            background-color: transparent;
+            border-right: 1px solid rgba(255, 255, 254, 0.8);
+            background: linear-gradient(to top left, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.3));
+            border-radius: 15px;
+        }
+
+        .section2 {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .form {
+            margin-top: -40px;
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            align-items: center;
+        }
+
+        .value {
+            height: 30px;
+            width: 100%;
+            margin: 10px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        .submitb {
+            border: none;
+            border-radius: 10px;
+            outline: 1px solid blue;
+            margin: auto;
+            padding: 10px;
+        }
+
+
+        #id_username,
+        #id_password {
+            height: 30px;
+            width: 100%;
+            margin: 10px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        .greet {
+            margin-bottom: -30px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <main>
+            <div class="section2">
+                <h1 class="greet">Login to access admin Privilages</h1>
+                <form action="" method="post" class="form">
+                    {% csrf_token %}
+                    {{ form }}
+                    <input type="submit" value="submit" class="submitb">
+                    <a href="/signup" style="margin-top: 50px;">Signup</a>
+                </form>
+            </div>
+        </main>
+    </section>
+    <script>
+        document.getElementsByTagName("input")[0].focus();
+        document.getElementById('id_username').style.paddingLeft = '20px';
+        document.getElementById('id_username').setAttribute('placeholder', 'Username');
+        document.getElementById('id_password').style.paddingLeft = '20px';
+        document.getElementById('id_password').setAttribute('placeholder', 'Password');
+    </script>
+</body>
+
+</html>
