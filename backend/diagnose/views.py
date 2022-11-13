@@ -86,5 +86,8 @@ def social_help(request):
 def skinCancer(request):
     return render(request,'diagnose.html')
 
+def sentimentAnalysis(request):
+    return render(request,'sentimentAnalysis.html')
+
 def donateData(request):
     return render(request ,'donateData.html')

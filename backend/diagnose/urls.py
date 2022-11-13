@@ -4,5 +4,6 @@ urlpatterns = [
     path('',index,name='dashboard'),
     path('diagnose',skinCancer),
     path('social',social_help),
+    path('sentimentAnalysis',sentimentAnalysis),
     path('donateData',donateData)
 ]
