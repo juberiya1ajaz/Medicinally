@@ -1,4 +1,4 @@
-# APP NAME
+# Medicinally
 
 ## 💡 Inspiration
 
@@ -6,7 +6,7 @@
 
 ## 💻 What it does
 
-Our web app **APP NAME** is built with the following features:
+Our web app **Medicinally** is built with the following features:
 - Skin cancer detection
 - Blood donation portal
 - Get cryptocurrency for donating your data for research purposes
@@ -43,7 +43,7 @@ We are usig DeSo for sending crypto rewards to the users. We are using DeSo API 
 - How to use Django with Frontend.
 - Using Cohere and DeSo
 
-## 🚀 What's next for APP NAME
+## 🚀 What's next for Medicinally
 
 - Building a mobile app.
 - Improving Accuracy of the ML Model
