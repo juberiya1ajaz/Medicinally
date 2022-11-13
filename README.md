@@ -1,6 +1,5 @@
-
-
 ## 💡 Inspiration
+
 **Skin cancer is the most common cancer in the World**. Some people are, at higher risk of skin cancer than others, but anyone can get it. In the U.S., more than 9,500 people are diagnosed with skin cancer daily. More than two people die of the disease every hour.
 To help this situation our team came up with the idea of _Medicinally_ where users can check their predictions of having melanoma aka skin cancer by just uploading an image. Users can also get cryptocurrency after posting their data for research purposes.
 
@@ -45,7 +44,7 @@ We are using DeSo for sending crypto rewards to users. We are using DeSo API for
 ## 📖 What we learned
 
 - How to use Django with Frontend.
-- Using Cohere and DeSo
+- Using Cohere for NLP and DeSo.
 
 ## 🚀 What's next for Medicinally
 
