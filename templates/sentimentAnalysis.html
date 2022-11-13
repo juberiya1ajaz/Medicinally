@@ -49,11 +49,15 @@
             border-radius: 12px;
         }
 
-        .form input{
+        .form textarea{
             margin-top: 12px;
             margin-bottom: 12px;
             font-size: 16px;
             padding: 8px;
+            width: 100%;
+            border: 2px solid black;
+            border-radius: 5px;
+            min-height: 200px;
         }
 
         .form label{
@@ -120,18 +124,13 @@
         </ul>
     </div>
     <div class="heading">Sentiment Analysis</div>
-    <div class="sub__heading">Predict the chances of having Skin Cancer</div>
+    <div class="sub__heading">Write how your day went check your score</div>
 
     <section class="section">
-        <input class="wallet_connect" type="button" value="Connect Wallet" onclick="connect();">
-
         <div class="form_area">
             <div class="form">
-                <h1 class="form__heading">Donate Data</h1>
-                <input type="text" class="room_name" placeholder="Your Age" id="age">
-                <input type="text" class="room_name" placeholder="Data Type" id="type" required>
-                <input type="file" class="room_name" placeholder="Item Image" id="item_image" required>
-                <button>Donate</button>
+                <h1 class="form__heading">How was your Day?</h1>
+                <textarea class="text" placeholder="How did your day went?"></textarea>
             </div>
         </div>
     </section>
